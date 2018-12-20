@@ -4,7 +4,11 @@ public class SampleMain {
 
 	public static void main(String args[]) {
 
-		System.out.println("Hello!");
+	SampleSub001 Sub001 = new SampleSub001();
+
+	Sub001.setAge(20);
+	Sub001.showProfile();
+
 
 	}
 
